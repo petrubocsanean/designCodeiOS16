@@ -8,19 +8,54 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showMenu = false
+    @AppStorage("selectedMenu") var selectedMenu: Menu = .compass
+    @GestureState var press = false
+    
+    var longPress: some Gesture {
+        LongPressGesture(minimumDuration: 1)
+            .updating($press) { currentState, gestureState, transaction in
+                gestureState = currentState
+            }
+            .onEnded { value in
+                showMenu = true
+            }
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            Color(.systemBackground).ignoresSafeArea()
+            switch selectedMenu {
+            case .compass:
+                MessageView()
+            case .card:
+                Text("card")
+            case .charts:
+                DetailView()
+            case .radial:
+                Text("radial")
+            case .halfsheet:
+                MenuView()
+            case .gooey:
+                Text("Goey")
+            case .actionbutton:
+                Text("Action Button")
+            }
         }
-        .padding()
+        .onTapGesture {
+            
+        }
+        .gesture(longPress)
+        .sheet(isPresented: $showMenu) {
+            MenuView()
+                .presentationDetents([.medium, .large])
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        
     }
 }

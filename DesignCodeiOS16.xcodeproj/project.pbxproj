@@ -11,6 +11,17 @@
 		A5E265FA29ACF1D300129606 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E265F929ACF1D300129606 /* ContentView.swift */; };
 		A5E265FC29ACF1D400129606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E265FB29ACF1D400129606 /* Assets.xcassets */; };
 		A5E265FF29ACF1D400129606 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E265FE29ACF1D400129606 /* Preview Assets.xcassets */; };
+		A5E2660629AFE86800129606 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2660529AFE86800129606 /* NavigationStackView.swift */; };
+		A5E2660829AFEA1200129606 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2660729AFEA1200129606 /* Data.swift */; };
+		A5E2660A29B25BDE00129606 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2660929B25BDE00129606 /* MessageView.swift */; };
+		A5E2660C29B25D3D00129606 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2660B29B25D3D00129606 /* MenuView.swift */; };
+		A5E2660E29B2618B00129606 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2660D29B2618B00129606 /* ChartView.swift */; };
+		A5E2661029B2904E00129606 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2660F29B2904E00129606 /* GridView.swift */; };
+		A5E2661229B293E500129606 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2661129B293E500129606 /* CardView.swift */; };
+		A5E2661429B2A23800129606 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2661329B2A23800129606 /* DetailView.swift */; };
+		A5E2661629B2A4BE00129606 /* RadialLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2661529B2A4BE00129606 /* RadialLayoutView.swift */; };
+		A5E2661829B381A800129606 /* CardReflectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2661729B381A800129606 /* CardReflectionView.swift */; };
+		A5E2661A29B3EFE200129606 /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2661929B3EFE200129606 /* ActionButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		A5E265F929ACF1D300129606 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5E265FB29ACF1D400129606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5E265FE29ACF1D400129606 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5E2660529AFE86800129606 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		A5E2660729AFEA1200129606 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A5E2660929B25BDE00129606 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		A5E2660B29B25D3D00129606 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		A5E2660D29B2618B00129606 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		A5E2660F29B2904E00129606 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		A5E2661129B293E500129606 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A5E2661329B2A23800129606 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A5E2661529B2A4BE00129606 /* RadialLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialLayoutView.swift; sourceTree = "<group>"; };
+		A5E2661729B381A800129606 /* CardReflectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardReflectionView.swift; sourceTree = "<group>"; };
+		A5E2661929B3EFE200129606 /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +75,17 @@
 			children = (
 				A5E265F729ACF1D300129606 /* DesignCodeiOS16App.swift */,
 				A5E265F929ACF1D300129606 /* ContentView.swift */,
+				A5E2661729B381A800129606 /* CardReflectionView.swift */,
+				A5E2661929B3EFE200129606 /* ActionButtonView.swift */,
+				A5E2661529B2A4BE00129606 /* RadialLayoutView.swift */,
+				A5E2660F29B2904E00129606 /* GridView.swift */,
+				A5E2661129B293E500129606 /* CardView.swift */,
+				A5E2661329B2A23800129606 /* DetailView.swift */,
+				A5E2660D29B2618B00129606 /* ChartView.swift */,
+				A5E2660B29B25D3D00129606 /* MenuView.swift */,
+				A5E2660529AFE86800129606 /* NavigationStackView.swift */,
+				A5E2660929B25BDE00129606 /* MessageView.swift */,
+				A5E2660729AFEA1200129606 /* Data.swift */,
 				A5E265FB29ACF1D400129606 /* Assets.xcassets */,
 				A5E265FD29ACF1D400129606 /* Preview Content */,
 			);
@@ -138,7 +171,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5E265FA29ACF1D300129606 /* ContentView.swift in Sources */,
+				A5E2661229B293E500129606 /* CardView.swift in Sources */,
+				A5E2660C29B25D3D00129606 /* MenuView.swift in Sources */,
+				A5E2661629B2A4BE00129606 /* RadialLayoutView.swift in Sources */,
+				A5E2661429B2A23800129606 /* DetailView.swift in Sources */,
+				A5E2661029B2904E00129606 /* GridView.swift in Sources */,
+				A5E2660629AFE86800129606 /* NavigationStackView.swift in Sources */,
+				A5E2661A29B3EFE200129606 /* ActionButtonView.swift in Sources */,
+				A5E2660E29B2618B00129606 /* ChartView.swift in Sources */,
 				A5E265F829ACF1D300129606 /* DesignCodeiOS16App.swift in Sources */,
+				A5E2660829AFEA1200129606 /* Data.swift in Sources */,
+				A5E2660A29B25BDE00129606 /* MessageView.swift in Sources */,
+				A5E2661829B381A800129606 /* CardReflectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +313,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCodeiOS16/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DesignCode;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +342,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCodeiOS16/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DesignCode;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
